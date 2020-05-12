@@ -1,0 +1,2 @@
+rootProject.name='golf_2020_kotlin'
+include ':app'
