@@ -1,3 +1,5 @@
+
+
 package com.example.golf_2020_kotlin
 
 import android.content.Context
@@ -20,9 +22,12 @@ import java.security.MessageDigest
 import java.security.NoSuchAlgorithmException
 
 class LoginActivity: AppCompatActivity() {
+
     private var callback: SessionCallback = SessionCallback()
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_login)
         fun getHashKey(context: Context): String? {
             try {
                 if (Build.VERSION.SDK_INT >= 28) {
@@ -59,6 +64,7 @@ class LoginActivity: AppCompatActivity() {
 
         // 카카오 제공 버튼일 경우
         Session.getCurrentSession().addCallback(callback);
+
     }
 
     override fun onDestroy() {

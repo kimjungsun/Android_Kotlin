@@ -1,7 +1,3 @@
-import android.util.Log;
-
-import com.example.golf_2020_kotlin.LoginActivity;
-
 public class Dlog {
 
     static final String TAG = "TedPark";
