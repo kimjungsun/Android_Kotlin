@@ -10,6 +10,7 @@ import android.os.Bundle
 import android.util.Base64
 import android.util.Base64.NO_WRAP
 import androidx.appcompat.app.AppCompatActivity
+import com.google.firebase.database.FirebaseDatabase
 import com.kakao.auth.ISessionCallback
 import com.kakao.auth.Session
 import com.kakao.network.ErrorResult
@@ -27,7 +28,9 @@ class LoginActivity: AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         setContentView(R.layout.activity_login)
+
         fun getHashKey(context: Context): String? {
             try {
                 if (Build.VERSION.SDK_INT >= 28) {
