@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "643312081486",
+    "firebase_url": "https://everygolf-b7ac3.firebaseio.com",
+    "project_id": "everygolf-b7ac3",
+    "storage_bucket": "everygolf-b7ac3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:643312081486:android:803d99222e5a30010ec11f",
+        "android_client_info": {
+          "package_name": "com.example.golf_2020_kotlin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "643312081486-hiu116ccua46nt05bbch4v0mji6f3r27.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIU0NKl6s9rAJecDcxtnZ8AaugLvli_-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "643312081486-hiu116ccua46nt05bbch4v0mji6f3r27.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
